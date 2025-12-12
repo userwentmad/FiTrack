@@ -3,6 +3,7 @@ pandas
 matplotlib
 plotly
 python-dateutil
+fpdf
 nltk
 reportlab
 bcrypt
