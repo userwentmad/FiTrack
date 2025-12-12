@@ -104,6 +104,18 @@ st.markdown(
 ---------------------------------------- */
 @media only screen and (max-width: 650px) {
 
+    /* Shrink page title on mobile */
+    h1 {
+        font-size: 22px !important;
+        line-height: 1.2 !important;
+    }
+
+    /* Shrink HERO title */
+    .hero-title {
+        font-size: 20px !important;
+        line-height: 1.2 !important;
+    }
+
     /* Reduce card padding */
     .card {
         padding: 1rem !important;
@@ -141,6 +153,7 @@ st.markdown(
         padding: 0rem 1rem !important;
     }
 }
+
 
 </style>
 """,
@@ -782,4 +795,5 @@ elif menu == "🔥 Streak Partners":
         st.info("No partners to remove.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
 
