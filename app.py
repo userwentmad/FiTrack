@@ -289,7 +289,7 @@ Your personalized fitness assistant is ready.
     padding: 40px 30px; border-radius: 15px; margin-bottom: 25px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);">
 
-<h1 style="color: #00E0B8; margin:0; font-size:32px; font-weight:900;">
+<h1 class="hero-title" style="color: #00E0B8; margin:0; font-weight:900;">
 Welcome back, {USERNAME} 👋
 </h1>
 
@@ -782,3 +782,4 @@ elif menu == "🔥 Streak Partners":
         st.info("No partners to remove.")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
